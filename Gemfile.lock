@@ -1,0 +1,25 @@
+GIT
+  remote: https://github.com/tabio/slideshare_search
+  revision: 11a8e9cdccc78716773684930a424c63da6406f5
+  specs:
+    slideshare_search (0.1.0)
+      nokogiri
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    mini_portile2 (2.4.0)
+    nokogiri (1.10.3)
+      mini_portile2 (~> 2.4.0)
+    slack-notifier (2.3.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  nokogiri
+  slack-notifier
+  slideshare_search!
+
+BUNDLED WITH
+   2.0.2
